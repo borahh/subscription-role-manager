@@ -1,28 +1,37 @@
-SUBSCRIPTION ROLE MANAGER DOCUMENTATION 
+# Subscription Role Manager Documentation
 
-1. First make sure the plugin “Subscription Role Manager” is active. 
- 
-[image](https://github.com/user-attachments/assets/179a3be1-0057-4bca-9e51-7b8fb7adc0b9)
+## 1. Ensure the Plugin is Active
 
- 
-2. Once it is active, head over to Settings >> General Settings, then you will see a new setting at the 
-bottom 
- 
-[image](https://github.com/user-attachments/assets/a6ffdd1e-f456-4f0d-9be6-87178ff75323)
+Before proceeding, confirm that the "Subscription Role Manager" plugin is active in your WordPress setup.
 
-When a subscription ends OR cancelled OR suspended; user will be downgraded to this global 
-setting. 
- 
-3. The plugin is currently tested for “Variable” Woocommerce product.  
+![Subscription Role Manager Active](https://github.com/user-attachments/assets/179a3be1-0057-4bca-9e51-7b8fb7adc0b9)
 
-[image](https://github.com/user-attachments/assets/a7b10994-529a-4f8a-b4ee-6274b830263d)
- 
-4. In the “Variations” window, you can assign a role to each variation. When someone purchases a 
-subscription, the plugin will automatically change the user role, mapped to the variation he 
-purchases. Make sure “Subscription” checkbox is checked though.
+## 2. Configure General Settings
 
-[image](https://github.com/user-attachments/assets/fcb1302b-41fa-4c65-9287-a0b0e9b440b2)
+Once the plugin is active, navigate to **Settings >> General Settings**. You will find a new option at the bottom of the page.
 
-NOTE: There is a restriction on the roles, which are displayed on the plugin settings. This is to avoid 
-misconfiguration and security issues. Currently the default WordPress roles, as well as the roles 
-associated with Yoast SEO are excluded from all the settings associated with this plugin 
+![General Settings](https://github.com/user-attachments/assets/a6ffdd1e-f456-4f0d-9be6-87178ff75323)
+
+This setting allows you to specify a global role to downgrade users to when their subscription ends, is canceled, or is suspended.
+
+## 3. Compatibility with Variable WooCommerce Products
+
+The plugin has been tested and is fully compatible with **Variable WooCommerce Products**.
+
+![Variable WooCommerce Product](https://github.com/user-attachments/assets/a7b10994-529a-4f8a-b4ee-6274b830263d)
+
+## 4. Assigning Roles to Product Variations
+
+In the **Variations** window of your WooCommerce product, you can assign a role to each variation. When a customer purchases a subscription, their user role will automatically change to the role mapped to the variation they select.
+
+- Ensure the **Subscription** checkbox is checked for the product variation.
+
+![Assign Role to Variations](https://github.com/user-attachments/assets/fcb1302b-41fa-4c65-9287-a0b0e9b440b2)
+
+## Important Notes
+
+- **Role Restrictions:** The roles displayed in the plugin settings are restricted to prevent misconfigurations and security issues. Default WordPress roles and roles associated with Yoast SEO are excluded from the plugin’s settings.
+
+---
+
+By following this guide, you can effectively configure and use the Subscription Role Manager plugin to manage user roles based on subscription statuses and variations.
